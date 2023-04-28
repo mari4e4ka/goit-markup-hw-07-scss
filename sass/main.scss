@@ -1,6 +1,16 @@
-@import "./var";
+@import "./vars";
+@import "./components/body";
+@import "./components/header";
+@import "./components/hero";
+@import "./components/buttons";
+@import "./components/backdrop";
+@import "./components/main-form";
+@import "./components/preferences";
+@import "./components/activity";
+@import "./components/team";
+@import "./components/clients";
+@import "./components/footer";
 
-body {
-    background-color: $bg-color;
-    color: $accent-color;
-}
+@import "./components/portfolio";
+
+@import "./components/contact-page";
