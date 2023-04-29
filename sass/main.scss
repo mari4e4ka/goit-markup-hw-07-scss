@@ -1,4 +1,9 @@
-@import "./vars";
+@import "./base/normalize";
+
+@import "./utils/vars";
+@import "./utils/mixins";
+@import "./utils/placeholders";
+
 @import "./components/body";
 @import "./components/header";
 @import "./components/hero";
