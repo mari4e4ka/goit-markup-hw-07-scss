@@ -6,20 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Портфоліо</title>
 
-    <link
-      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
-    />
     <link rel="stylesheet" href="./css/main.css" />
   </head>
   <body>
     <header>
       <div class="header container">
-          <a href="./index.html" class="logo header__logo"
+          <a href="./index.html" class="header__logo"
             ><span class="logo__accent ">Web</span>Studio</a
           >
           <nav class="navigation">
@@ -27,7 +19,7 @@
               <a href="./index.html" class="navigation__link">Студія</a>
             </div>
             <div class="navigation__item">
-              <a href="./portfolio.html" class="navigation__link navigation__link--current">Портфоліо</a>
+              <a href="./portfolio.html" class="navigation__link--current">Портфоліо</a>
             </div>
             <div class="navigation__item">
               <a href="./contacts.html" class="navigation__link"
@@ -59,7 +51,7 @@
       <div class="container ">
         <section class="portfolio">
           <ul class="portfolio-nav">
-            <li class="portfolio-nav__item"><button class="button-secondary button-secondary--current">Усі</button></li>
+            <li class="portfolio-nav__item"><button class="button-secondary--current">Усі</button></li>
             <li class="portfolio-nav__item">
               <button class="button-secondary">Веб-сайти</button>
             </li>
@@ -269,9 +261,9 @@
       </div>
     </main>
     <footer class="footer">
-      <div class="container footer__container">
+      <div class="footer__container">
         <div class="footer-info">
-          <a href="./index.html" class="logo footer__logo"
+          <a href="./index.html" class="footer__logo"
               ><span class="logo__accent">Web</span><span class="footer-text-color">Studio</span>
             </a>
           <address class="footer-info__address">м. Київ, пр-т Лесі Українки, 26</address>
@@ -339,7 +331,7 @@
         <form class="subscribe">
             <label class="subscribe__label">Підпишіться на розсилку
             <input type="email" class="subscribe__input" id="email" placeholder="E-mail"></label>
-            <button type="submit" class="button subscribe__button">
+            <button type="submit" class="subscribe__button">
               Підписатися
               <svg class="subscribe__icon">
                 <use href="./images/sprite.svg#icon-send"></use>
